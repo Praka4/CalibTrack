@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalibTrack - Calibration Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>CalibTrack</h2>
+        <p>Instrument Calibration & Compliance Management</p>
+    </header>
+
+    <nav>
+        <button onclick="showDashboard()">Dashboard</button>
+        <button onclick="showInstruments()">Instruments</button>
+        <button onclick="showCalibrations()">Calibrations</button>
+        <button onclick="showWorkOrders()">Work Orders</button>
+        <button onclick="showCertificates()">Certificates</button>
+        <button onclick="showReports()">Reports</button>
+        <button onclick="showAudit()">Audit History</button>
+        <button onclick="showAlerts()">Alerts</button>
+        <button onclick="showImpactAssessments()">Impact Assessment</button>
+
+    </nav>
+
+    <main>
+        <h2 id="pageTitle">Dashboard</h2>
+
+        <section class="cards">
+            <div class="card">
+                <h3>Total Instruments</h3>
+                <p id="totalInstruments">Loading...</p>
+            </div>
+
+            <div class="card">
+                <h3>Overdue Instruments</h3>
+                <p id="overdueInstruments">Loading...</p>
+            </div>
+        </section>
+
+        <section id="content">
+            <p>Welcome to CalibTrack.</p>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
