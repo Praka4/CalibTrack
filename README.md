@@ -43,6 +43,17 @@ CalibTrack is a web-based Calibration Management System designed to manage instr
 
 6. Open the frontend using VS Code Live Server.
 
+   streamlit run frontend.py
+   --server.address 127.0.0.1
+   --server.port 5500
+
+and Open VS Code terminal.
+http://localhost:5500
+
+
+Stop the current server using Ctrl + C.
+Run:
+4. Open this URL in your browser:
 
 ## API Documentation
 After starting the backend, visit:
